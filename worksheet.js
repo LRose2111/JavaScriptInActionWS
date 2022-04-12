@@ -32,3 +32,48 @@ else if (userInput > timeOfDay , userInput < "1700"){
 else {
     alert("Dinner Time!! Lets have" + aFavoriteMeal[2]);
 }
+
+// 2 Random Number
+
+function getRandomNumber(min,max){
+     return Math.floor(Math.random() * (max - min + 1)) + min;
+}
+
+numberPicked = getRandomNumber(0,10)
+
+if (numberPicked < 3){
+    console.log("Beatles");
+}
+else if (numberPicked < 6){
+    console.log("Stones");
+}
+else if (numberPicked < 9){
+    console.log("Floyd");
+}
+else {
+    console.log("Hendrix");
+}
+
+// LOOPS
+
+// 1 For Loop
+
+for (let i = 1; i<8; i++){
+    alert("JavaScript is cool!" + i)
+}
+
+for (let i = 0; i<11 ; i++){
+    alert(i)
+}
+
+for (let i =1; i<11 ; i++){
+    if (i%2 == 0){
+        alert("GoodBye");
+    }
+    else {
+        alert("Hello");
+    }
+}
+
+
+
