@@ -75,5 +75,59 @@ for (let i =1; i<11 ; i++){
     }
 }
 
+// 2 While Loop
+
+let isInstructorAwesome = true;
+
+while (isInstructorAwesome) {
+    console.log("Are you awesome? ");
+    isInstructorAwesome = false;
+}
+
+// FUNCTIONS 
+
+// 1 Favorite Movie
+function printMovieName(){
+    favoriteMovie = "Interstellar";
+    console.log(favoriteMovie);
+}
+printMovieName();
+
+// 2 Favorite Band
+
+function userFavoriteBand(){
+    let choice;
+    choice = prompt("What is your favorite band? ")
+    return choice;
+}
+let userBandChoice = userFavoriteBand();
+console.log(userBandChoice);
+
+// 3 Concert
+
+function concertDisplay(musicalAct){
+    myStreet = prompt("What street do you live on? ");
+    alert("It would be great if " + musicalAct + " played a show on " + myStreet);
+}
+
+concertDisplay(userBandChoice);
+
+// ARRAYS
+
+// 1 Desktop Items
+
+desktopItems = ["camera", "files", "monitor", "phone"];
+
+console.log(desktopItems[1]);
+
+desktopItems.push("Infinity Gauntlet");
+
+for (desktopItems;;){
+    console.log(desktopItems);
+}
+
+
+
+
 
 
